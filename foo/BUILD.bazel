@@ -5,5 +5,5 @@ ts_library(
     name = "foo",
     srcs = glob(["*.ts"]),
     deps = [],
-    node_modules = "@foo_deps//:node_modules",
+    node_modules = "//foo_generated_deps:node_modules",
 )

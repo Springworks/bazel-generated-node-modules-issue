@@ -1,3 +1,5 @@
+workspace(name = "bazel_generated_node_modules_issue")
+
 # TypeScript rules depend on running Node.js.
 http_archive(
     name = "build_bazel_rules_nodejs",

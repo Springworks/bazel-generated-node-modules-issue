@@ -1,0 +1,7 @@
+package(default_visibility=["//visibility:public"])
+load("//rules:defs.bzl", "generated_node_modules")
+
+generated_node_modules(
+  name = "node_modules",
+  node_modules = "@foo_deps//:node_modules",
+)
