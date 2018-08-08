@@ -63,3 +63,11 @@ browser_repositories(
 load("@build_bazel_rules_typescript//:defs.bzl", "ts_setup_workspace")
 
 ts_setup_workspace()
+
+load("@build_bazel_rules_nodejs//:defs.bzl", "yarn_install")
+
+yarn_install(
+    name = "foo_deps",
+    package_json = "//foo_deps:package.json",
+    yarn_lock = "//foo_deps:yarn.lock",
+)
