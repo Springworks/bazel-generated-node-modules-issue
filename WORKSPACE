@@ -39,10 +39,10 @@ http_archive(
     sha256 = "bc653d3e058964a5a26dcad02b6c72d7d63e6bb88d94704990b908a1445b8758",
 )
 
-# Include @bazel/typescript in package.json#devDependencies
-local_repository(
+http_archive(
     name = "build_bazel_rules_typescript",
-    path = "node_modules/@bazel/typescript",
+    urls = ["https://github.com/bazelbuild/rules_typescript/archive/0.16.0.tar.gz"],
+    strip_prefix = "rules_typescript-0.16.0",
 )
 
 load("@build_bazel_rules_nodejs//:defs.bzl", "node_repositories")

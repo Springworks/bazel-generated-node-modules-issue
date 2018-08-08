@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/Springworks/bazel-generated-node-modules-issue#readme",
   "dependencies": {
-    "@bazel/typescript": "^0.16.0",
+    "@bazel/typescript": "^0.16.0"
   }
 }
