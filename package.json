@@ -1,0 +1,22 @@
+{
+  "name": "bazel-generated-node-modules-issue",
+  "version": "1.0.0",
+  "description": "Minimal example of bazel rules_typescript not working with a generated node_modules folder.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Springworks/bazel-generated-node-modules-issue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Springworks/bazel-generated-node-modules-issue/issues"
+  },
+  "homepage": "https://github.com/Springworks/bazel-generated-node-modules-issue#readme",
+  "dependencies": {
+    "@bazel/typescript": "^0.16.0"
+  }
+}
